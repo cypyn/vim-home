@@ -1,0 +1,10 @@
+if has('win32') || has('win64')
+    "set runtimepath=E:\vimhome\vimfiles,E:\vimhome,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after
+    "let $HOME='E:\vimhome'
+    let $VIMHOME="$HOME/vim-home/vimfiles"
+endif
+
+
+source $HOME/vim-home/vimrc-user.vim
+
+

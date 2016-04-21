@@ -33,7 +33,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'craigemery/vim-autotag'
 Plugin 'taglist-plus'
 Plugin 'jistr/vim-nerdtree-tabs'
-
 "Nerdtree
 Plugin 'scrooloose/nerdtree'
 "Vim thesaurus

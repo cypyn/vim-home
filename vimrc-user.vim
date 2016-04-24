@@ -2,8 +2,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=$HOME/vim-home/vimfiles/bundle/Vundle.vim
-let path='$HOME/vim-home/vimfiles/bundle'
+set rtp+=$HOME/$VIMDIR/vimfiles/bundle/Vundle.vim
+let path='$HOME/$VIMDIR/vimfiles/bundle'
 call vundle#begin(path)
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -264,8 +264,8 @@ set smartcase
 set ignorecase
 
 "Set backup and swap directors
-set backupdir=$HOME/vim-home/backup
-set directory=$HOME/vim-home/swap
+set backupdir=$HOME/$VIMDIR/backup
+set directory=$HOME/$VIMDIR/swap
 
 "Auto set the active directory to the file opened
 set autochdir

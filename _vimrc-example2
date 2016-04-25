@@ -1,8 +1,8 @@
 "let $HOME='~/.vim'
-let $VIMHOME="$HOME/.vim/vimfiles"
 let $VIMDIR='.vim'
+let $VIMHOME="$HOME/$VIMDIR/vimfiles"
 
 
-source $HOME/.vim/vimrc-user.vim
+source $HOME/$VIMDIR/vimrc-user.vim
 
 

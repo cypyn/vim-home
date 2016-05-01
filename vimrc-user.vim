@@ -152,8 +152,12 @@ source $VIMRUNTIME/mswin.vim
 behave mswin
 
 if has("gui_running")
-    set guifont=Consolas:h14:cANSI
-    :cd c:\users\natha_000
+    if has ('gui_win32')
+        set guifont=Consolas:h14:cANSI
+    else
+        set guifont=Monospace\ 14
+    endif
+    :cd $HOME
     map <C-Tab> :bnext<cr>
     map <C-S-Tab> :bprevious<cr>
 endif
